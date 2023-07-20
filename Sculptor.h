@@ -6,7 +6,7 @@ class Sculptor {
 private:
   Voxel ***v; // 3D matrix
   int nx,ny,nz; // Dimensions
-  float r,g,b,a; // VERMELHO, VERDE, AZUL E TRANSPARENTE
+  float r,g,b,a; // VERMELHO, VERDE, AZUL E OPACIDADE
 
 public:
   Sculptor(int _nx, int _ny, int _nz);
